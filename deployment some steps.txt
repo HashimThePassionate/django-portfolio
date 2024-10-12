@@ -1,0 +1,29 @@
+Creating Python App 
+-------------------------------
+Application Root = portfolio
+Python Version = 3.11.9
+-------------------------------
+
+
+secret key 
+-------------------------------
+
+python -c 'import secrets; print(secrets.token_urlsafe(50))'
+-------------------------------
+
+
+open passenger_wsgi.py file
+--------------------------------------
+from django_project.wsgi import application
+--------------------------------------
+
+settings.py
+
+--------------------------------------
+ALLOWED_HOSTS = ['mrfaizi.com', 'www.mrfaizi.com']
+--------------------------------------
+
+Execute python script
+---------------------------------------
+/home/mrfaizi/virtualenv/portfolio/3.11/bin/pip install -r /home/mrfaizi/portfolio/requirements.txt
+---------------------------------------
